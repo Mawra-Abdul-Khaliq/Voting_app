@@ -1,0 +1,38 @@
+A VOTING APPLICATION
+
+Functionality
+-> Can sign up and signin/login
+-> Can see the list of Candidates standing for Elections
+-> Can see his profile containing his name, address, email, phoneno, idcardno
+-> Can change his password
+-> Can vote to only one party.
+-> User must contain with their unique id card number
+-> Can vote for only one time
+-> There is a route which shows list of Candidates and there their live vote counts sorted by counting
+-> Candidates are maanged by adimn 
+-> Admin cannnot vote 
+-> User can only login with ID card no and password
+
+..................................................................................................................
+
+Routes
+
+User Authentication
+signup/ POST method ---> Create user account
+login/ POST method ---> Authenticate user account
+
+Voting 
+candidate/ GET method ---> Get list of Candidates
+vote/:candidateID / POST method---> Vote for specific candidate
+
+Votes counting
+vote/count/ GET method ---> Get the list of candidate sorted by count of votes
+
+Profile
+profile/ GET method ---> Get the user's profile information
+proifle/password / PUT method ---> Change user's password
+
+Admin Candidates Management
+candidate/ POST method ---> Create candiate account
+candidate/candidateID/ PUT method ---> Update an existing candidate
+candidate/candidateID/ DELETE method ---> Delete candidate from existing account
