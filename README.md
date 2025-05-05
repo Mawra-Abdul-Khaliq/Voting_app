@@ -89,7 +89,7 @@ voting-app/
 
 1. Clone the repo:
 
-git clone https://github.com/your-username/voting-app.git
+git clone https://github.com/Mawra-Abdul_Khaliq/voting-app.git
 cd voting-app
 Install dependencies:
 
