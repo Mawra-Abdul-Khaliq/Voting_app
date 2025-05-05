@@ -93,9 +93,6 @@ git clone https://github.com/Mawra-Abdul_Khaliq/voting-app.git
 cd voting-app
 Install dependencies:
 
-bash
-Copy
-Edit
 npm install
 Create a .env file and add your configuration:
 
